@@ -24,4 +24,6 @@ webshot::webshot(
   url = "codebook-sjmisc.txt",
   file = "codebook-sjmisc_wshot.pdf")
 
+# Entrega pdf en 1 pagina, problema para imprimir. Siempre en 1 página.
+# Problema con encoding
 
