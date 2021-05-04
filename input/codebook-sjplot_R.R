@@ -3,7 +3,6 @@ options("encoding")
 # options("encoding"="UTF-8")
 misdatos <- read_sav(file = "misdatos.sav")
 
-
 sjPlot::view_df(misdatos,
                 show.type = F,
                 show.frq = T, 

@@ -6,7 +6,6 @@ sink("codebook-sjmisc.txt")
 sjmisc::frq(misdatos,min.frq = 2)
 sink() 
 
-
 pagedown::chrome_print(
   input = "codebook-sjmisc.txt",
   output = "codebook-sjmisc_pdown.pdf",
