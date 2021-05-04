@@ -1,3 +1,6 @@
+library(haven)
+library(sjPlot)
+
 misdatos <- read_sav(file = "input/misdatos.sav")
 
 
