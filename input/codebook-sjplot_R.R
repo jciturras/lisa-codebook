@@ -1,6 +1,11 @@
-pacman::p_load(haven,sjPlot,pagedown,webshot)
+pacman::p_load(haven,   # para cargar bases de datos en .sav o .dta
+               sjPlot,  # para generar codebook
+               pagedown,# exportar a pdf (a)
+               webshot  # exportar a pdf (b)
+               ) 
 options("encoding")
 # options("encoding"="UTF-8")
+
 misdatos <- read_sav(file = "misdatos.sav")
 
 sjPlot::view_df(misdatos,                      # Datos
