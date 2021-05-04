@@ -16,7 +16,7 @@ sjPlot::view_df(misdatos,                      # Datos
                 encoding = "UTF-8",            # encoding caracteres especiales
                 max.len =40,             
 )
-browseURL("codebook-sjplot.html") # ver sitio web
+browseURL("codebook-sjplot.html") # ver codebook
 
 # Alternativas para exportar a pdf ----------------------------------------
 pagedown::chrome_print(
