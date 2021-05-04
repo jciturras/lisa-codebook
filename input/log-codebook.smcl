@@ -1,0 +1,1530 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Julio\Dropbox\papers\lisa-codebook\input\log-codebook.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}12 Apr 2021, 13:15:12
+{txt}
+{com}. codebook 
+
+{txt}{hline}
+{res}StartDate{right:Start Date}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1.890e+12{txt},{res}1.894e+12{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}2,430{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 1.9e+12
+{txt}{col 15}std. dev:{res}{col 26} 1.6e+09
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27} 1.9e+12{col 37} 1.9e+12{col 47} 1.9e+12{col 57} 1.9e+12{col 67} 1.9e+12
+
+{txt}{hline}
+{res}EndDate{right:End Date}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1.890e+12{txt},{res}1.894e+12{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}2,445{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 1.9e+12
+{txt}{col 15}std. dev:{res}{col 26} 1.6e+09
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27} 1.9e+12{col 37} 1.9e+12{col 47} 1.9e+12{col 57} 1.9e+12{col 67} 1.9e+12
+
+{txt}{hline}
+{res}Status{right:Response Type}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels0}
+
+{col 18}range:  [{res}0{txt},{res}8{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     2,454{col 33}       0{col 43}{txt}IP Address
+{col 21}{res}         3{col 33}       8{col 43}{txt}Spam
+
+{txt}{hline}
+{res}IPAddress{right:IP Address}
+{txt}{hline}
+
+{col 19}type:  string ({res}str15{txt})
+
+{col 10}unique values:  {res}2,362{col 51}{txt}missing "":  {res}0{txt}/{res}2,457
+
+{txt}{col 15}examples:  {res}"181.72.49.16"
+{col 26}"186.67.140.226"
+{col 26}"190.5.32.60"
+{col 26}"200.73.243.87"
+
+{txt}{hline}
+{res}Progress{right:Progress}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}100{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}18{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 96.6325
+{txt}{col 15}std. dev:{res}{col 26} 15.3241
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}     100{col 37}     100{col 47}     100{col 57}     100{col 67}     100
+
+{txt}{hline}
+{res}Duration__in_seconds_{right:Duration (in seconds)}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+
+{col 18}range:  [{res}4{txt},{res}318721{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1,142{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 1773.72
+{txt}{col 15}std. dev:{res}{col 26} 11921.3
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}     169{col 37}     421{col 47}     581{col 57}     828{col 67}    1265
+
+{txt}{hline}
+{res}Finished{right:Finished}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels1}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       136{col 33}       0{col 43}{txt}False
+{col 21}{res}     2,321{col 33}       1{col 43}{txt}True
+
+{txt}{hline}
+{res}RecordedDate{right:Recorded Date}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}double{txt})
+
+{col 18}range:  [{res}1.890e+12{txt},{res}1.894e+12{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}2,366{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 1.9e+12
+{txt}{col 15}std. dev:{res}{col 26} 1.6e+09
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27} 1.9e+12{col 37} 1.9e+12{col 47} 1.9e+12{col 57} 1.9e+12{col 67} 1.9e+12
+
+{txt}{hline}
+{res}ResponseId{right:Response ID}
+{txt}{hline}
+
+{col 19}type:  string ({res}str17{txt})
+
+{col 10}unique values:  {res}2,457{col 51}{txt}missing "":  {res}0{txt}/{res}2,457
+
+{txt}{col 15}examples:  {res}"R_1l9UaC0202t4m8E"
+{col 26}"R_2ZNyPxbVF22ElMF"
+{col 26}"R_3JgeFKOKne00gLK"
+{col 26}"R_CmlLsCwvXG3Kx0t"
+
+{txt}{hline}
+{res}RecipientLastName{right:Recipient Last Name}
+{txt}{hline}
+
+{col 19}type:  string ({res}str1{txt}), but longest is str0
+
+{col 10}unique values:  {res}0{col 51}{txt}missing "":  {res}2,457{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}""
+
+{txt}{hline}
+{res}RecipientFirstName{right:Recipient First Name}
+{txt}{hline}
+
+{col 19}type:  string ({res}str1{txt}), but longest is str0
+
+{col 10}unique values:  {res}0{col 51}{txt}missing "":  {res}2,457{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}""
+
+{txt}{hline}
+{res}RecipientEmail{right:Recipient Email}
+{txt}{hline}
+
+{col 19}type:  string ({res}str1{txt}), but longest is str0
+
+{col 10}unique values:  {res}0{col 51}{txt}missing "":  {res}2,457{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}""
+
+{txt}{hline}
+{res}ExternalReference{right:External Data Reference}
+{txt}{hline}
+
+{col 19}type:  string ({res}str1{txt}), but longest is str0
+
+{col 10}unique values:  {res}0{col 51}{txt}missing "":  {res}2,457{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}""
+
+{txt}{hline}
+{res}LocationLatitude{right:Location Latitude}
+{txt}{hline}
+
+{col 19}type:  string ({res}str21{txt})
+
+{col 10}unique values:  {res}82{col 51}{txt}missing "":  {res}136{txt}/{res}2,457
+
+{txt}{col 15}examples:  {res}"-33.4512939453125"
+{col 26}"-33.4512939453125"
+{col 26}"-33.4512939453125"
+{col 26}"-33.4512939453125"
+
+{txt}{hline}
+{res}LocationLongitude{right:Location Longitude}
+{txt}{hline}
+
+{col 19}type:  string ({res}str21{txt})
+
+{col 10}unique values:  {res}85{col 51}{txt}missing "":  {res}136{txt}/{res}2,457
+
+{txt}{col 15}examples:  {res}"-70.6652984619140625"
+{col 26}"-70.6652984619140625"
+{col 26}"-70.6652984619140625"
+{col 26}"-70.6652984619140625"
+
+{txt}{hline}
+{res}DistributionChannel{right:Distribution Channel}
+{txt}{hline}
+
+{col 19}type:  string ({res}str9{txt})
+
+{col 10}unique values:  {res}1{col 51}{txt}missing "":  {res}0{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}"anonymous"
+
+{txt}{hline}
+{res}UserLanguage{right:User Language}
+{txt}{hline}
+
+{col 19}type:  string ({res}str5{txt})
+
+{col 10}unique values:  {res}1{col 51}{txt}missing "":  {res}0{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}     2,457{col 33}"ES-ES"
+
+{txt}{hline}
+{res}Intro{right:PROYECTO ECONOMÍA MORAL DE LA MERITOCRACIA Y PREFERENCIAS REDISTRIBUTIVAS
+ 
+
+IN}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels2}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     2,236{col 33}       1{col 43}{txt}ACEPTO participar en este
+{col 43}estudio
+{col 21}{res}       221{col 33}       2{col 43}{txt}NO ACEPTO participar en este
+{col 43}estudio
+
+{txt}{hline}
+{res}sexo{right:¿Cuál es su sexo?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels3}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     1,104{col 33}       1{col 43}{txt}Hombre
+{col 21}{res}     1,112{col 33}       2{col 43}{txt}Mujer
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{res}educat{right:¿Cuál es su mayor nivel educacional alcanzado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels4}
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        65{col 33}       1{col 43}{txt}Básica o menos (Sin estudios -
+{col 43}básica incompleta - básica
+{col 43}completa)
+{col 21}{res}       958{col 33}       2{col 43}{txt}Media (Media incompleta - media
+{col 43}completa)
+{col 21}{res}       723{col 33}       3{col 43}{txt}No universitaria (Técnica
+{col 43}incompleta - técnica completa -
+{col 43}universitaria incompleta)
+{col 21}{res}       470{col 33}       4{col 43}{txt}Universitaria o más (
+{col 43}Universitaria completa -
+{col 43}postgrado)
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{res}edad{right:¿Cuál es su edad?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels5}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       411{col 33}       1{col 43}{txt}18 - 24
+{col 21}{res}       418{col 33}       2{col 43}{txt}25 - 34
+{col 21}{res}       423{col 33}       3{col 43}{txt}35 - 44
+{col 21}{res}       398{col 33}       4{col 43}{txt}45 - 54
+{col 21}{res}       566{col 33}       5{col 43}{txt}55 o más
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{res}percep_pov{right:¿Usted
+cree que actualmente en Chile la cantidad de personas pobres es mayor, i}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels6}
+
+{col 18}range:  [{res}1{txt},{res}3{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}244{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       972{col 33}       1{col 43}{txt}Mayor
+{col 21}{res}       455{col 33}       2{col 43}{txt}Igual
+{col 21}{res}       786{col 33}       3{col 43}{txt}Menor
+{col 21}{res}       244{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_1{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Tener padres con}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels7}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       272{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       563{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       552{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       509{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       277{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_2{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Tener ambición}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels8}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        94{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       281{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       643{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       662{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       493{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_3{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Conocer a las pe}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels9}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       100{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       274{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       602{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       682{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       515{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_4{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Tener contactos }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels10}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       624{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       566{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       359{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       366{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       258{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_5{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - La raza u origen}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels11}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       756{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       596{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       340{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       314{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       167{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_6{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - El sexo de las p}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels12}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       789{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       551{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       383{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       304{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       146{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{res}get_ah_DO_1{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order Te}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       329{col 33}1
+{col 21}       348{col 33}2
+{col 21}       360{col 33}3
+{col 21}       410{col 33}4
+{col 21}       364{col 33}5
+{col 21}       362{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}get_ah_DO_2{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order Te}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       357{col 33}1
+{col 21}       359{col 33}2
+{col 21}       391{col 33}3
+{col 21}       369{col 33}4
+{col 21}       347{col 33}5
+{col 21}       350{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}get_ah_DO_3{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order Co}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       373{col 33}1
+{col 21}       348{col 33}2
+{col 21}       367{col 33}3
+{col 21}       360{col 33}4
+{col 21}       386{col 33}5
+{col 21}       339{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}get_ah_DO_4{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order Te}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       371{col 33}1
+{col 21}       365{col 33}2
+{col 21}       353{col 33}3
+{col 21}       355{col 33}4
+{col 21}       366{col 33}5
+{col 21}       363{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}get_ah_DO_5{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order La}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       353{col 33}1
+{col 21}       390{col 33}2
+{col 21}       346{col 33}3
+{col 21}       331{col 33}4
+{col 21}       359{col 33}5
+{col 21}       394{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}get_ah_DO_6{right:Para surgir en la vida, ¿cuan importante cree ud. que es...? - Display Order El}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}6{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       390{col 33}1
+{col 21}       363{col 33}2
+{col 21}       356{col 33}3
+{col 21}       348{col 33}4
+{col 21}       351{col 33}5
+{col 21}       365{col 33}6
+{col 21}       284{col 33}.
+
+{txt}{hline}
+{res}egal_1{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels13}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}297{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        39{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        74{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       117{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       454{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}     1,476{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}       297{col 33}       .{col 43}
+
+{txt}{hline}
+{res}egal_2{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels14}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}297{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        28{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        81{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       170{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       542{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}     1,339{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}       297{col 33}       .{col 43}
+
+{txt}{hline}
+{res}egal_5{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels15}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}298{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        11{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}        66{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       152{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       524{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}     1,406{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}       298{col 33}       .{col 43}
+
+{txt}{hline}
+{res}egal_6{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels16}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}298{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        27{col 33}       1{col 43}{txt}Muy en desacuerdo
+{col 21}{res}       146{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       214{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       490{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}     1,282{col 33}       5{col 43}{txt}Muy de acuerdo
+{col 21}{res}       298{col 33}       .{col 43}
+
+{txt}{hline}
+{res}igualitarismo_DO_egal_1{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}294{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       540{col 33}1
+{col 21}       531{col 33}2
+{col 21}       538{col 33}3
+{col 21}       554{col 33}4
+{col 21}       294{col 33}.
+
+{txt}{hline}
+{res}igualitarismo_DO_egal_2{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}294{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       551{col 33}1
+{col 21}       544{col 33}2
+{col 21}       511{col 33}3
+{col 21}       557{col 33}4
+{col 21}       294{col 33}.
+
+{txt}{hline}
+{res}igualitarismo_DO_egal_5{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}294{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       539{col 33}1
+{col 21}       545{col 33}2
+{col 21}       533{col 33}3
+{col 21}       546{col 33}4
+{col 21}       294{col 33}.
+
+{txt}{hline}
+{res}igualitarismo_DO_egal_6{right:¿En    qué    medida    se    encuentra    usted    de    acuerdo    o    en  }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}294{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       533{col 33}1
+{col 21}       543{col 33}2
+{col 21}       581{col 33}3
+{col 21}       506{col 33}4
+{col 21}       294{col 33}.
+
+{txt}{hline}
+{res}meritv01_perc_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels18}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        74{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       167{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       237{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       168{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        66{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_perc_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels19}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        83{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        73{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       136{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       174{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       246{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_perc_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels20}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        72{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        51{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       106{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       250{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       233{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_pref_effort{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels21}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        57{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        39{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       108{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       213{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       295{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_pref_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels22}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        67{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        99{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       243{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       184{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       119{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_pref_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels23}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       164{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       162{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       241{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       119{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        26{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv01_pref_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels24}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       193{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       201{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       223{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}        79{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        16{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}merit_perc_scale{right:Para salir adelante en Chile actualmente. ¿Qué es más importante, el talento }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels25}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,753{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        35{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}        21{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        17{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       371{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        54{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        48{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       158{col 33}       7{col 43}{txt}(7) El esfuerzo
+{col 21}{res}     1,753{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q3_1{right:Y, ¿Qué debería ser más importante?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels26}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,756{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        38{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}         9{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        13{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       401{col 33}       4{col 43}{txt}(4)  Ambos por igual
+{col 21}{res}        36{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        39{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       165{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,756{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q4_1{right:Y en su caso personal, los logros y recompensas que he obtenido en la vida se de}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels27}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,752{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        13{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}         7{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        14{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       303{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        49{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        52{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       267{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,752{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_perc_effort{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels28}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       124{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       142{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       141{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       155{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       155{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_pref_effort{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels29}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        94{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        43{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        81{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       243{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       256{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_perc_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels30}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        69{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       160{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       237{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       185{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        66{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_pref_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels31}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        69{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       134{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       245{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       172{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        97{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_perc_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels32}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        86{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        69{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       113{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       187{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       262{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_pref_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels33}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       153{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       129{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       227{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       163{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        45{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_perc_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels34}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        60{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        62{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       106{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       272{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       217{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv02_pref_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels35}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,740{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       181{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       221{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       195{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}        93{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        27{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,740{col 33}       .{col 43}
+
+{txt}{hline}
+{res}_v1{right:Para salir adelante en Chile actualmente. ¿Qué es más importante, el talento }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels36}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,748{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        35{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}        19{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        30{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       421{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        49{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        38{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       117{col 33}       7{col 43}{txt}(7) El esfuerzo
+{col 21}{res}     1,748{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q205_1{right:Y, ¿Qué debería ser más importante?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels37}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        35{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}         7{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        14{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       402{col 33}       4{col 43}{txt}(4)  Ambos por igual
+{col 21}{res}        34{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        39{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       181{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q206_1{right:Y en su caso personal, los logros y recompensas que he obtenido en la vida se de}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels38}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        14{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}        10{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        18{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       299{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        59{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        41{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       271{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_perc_effort{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels39}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        84{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       149{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       107{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       189{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       183{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_perc_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels40}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        81{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       178{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       173{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       172{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       108{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_perc_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels41}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        76{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        79{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        90{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       188{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       279{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_perc_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels42}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        58{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        48{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        91{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       225{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       290{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_pref_effort{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels43}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        48{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}        33{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}        80{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       232{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       319{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_pref_talent{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels44}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        61{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       123{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       197{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       180{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}       151{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_pref_wpart{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels45}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       129{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       164{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       216{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       151{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        52{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}meritv03_pref_netw{right:Pensando en la sociedad chilena, ¿En qué medida se encuentra usted de acuerdo }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels46}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}1,745{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       154{col 33}       1{col 43}{txt}Totalmente en desacuerdo
+{col 21}{res}       235{col 33}       2{col 43}{txt}En desacuerdo
+{col 21}{res}       170{col 33}       3{col 43}{txt}Ni de acuerdo ni en desacuerdo
+{col 21}{res}       119{col 33}       4{col 43}{txt}De acuerdo
+{col 21}{res}        34{col 33}       5{col 43}{txt}Totalmente de acuerdo
+{col 21}{res}     1,745{col 33}       .{col 43}
+
+{txt}{hline}
+{res}_v2{right:Para salir adelante en Chile actualmente. ¿Qué es más importante, el talento }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels47}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,758{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        45{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}        12{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        20{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       388{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        49{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        38{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       147{col 33}       7{col 43}{txt}(7) El esfuerzo
+{col 21}{res}     1,758{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q209_1{right:Y, ¿Qué debería ser más importante?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels48}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,757{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        38{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}         8{col 33}       2{col 43}{txt}(2)
+{col 21}{res}         7{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       390{col 33}       4{col 43}{txt}(4)  Ambos por igual
+{col 21}{res}        36{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        25{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       196{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,757{col 33}       .{col 43}
+
+{txt}{hline}
+{res}Q210_1{right:Y en su caso personal, los logros y recompensas que he obtenido en la vida se de}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels49}
+
+{col 18}range:  [{res}1{txt},{res}7{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}1,749{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        18{col 33}       1{col 43}{txt}(1)  El talento
+{col 21}{res}         7{col 33}       2{col 43}{txt}(2)
+{col 21}{res}        14{col 33}       3{col 43}{txt}(3)
+{col 21}{res}       297{col 33}       4{col 43}{txt}(4) Ambos por igual
+{col 21}{res}        51{col 33}       5{col 43}{txt}(5)
+{col 21}{res}        44{col 33}       6{col 43}{txt}(6)
+{col 21}{res}       277{col 33}       7{col 43}{txt}(7)  El esfuerzo
+{col 21}{res}     1,749{col 33}       .{col 43}
+
+{txt}{hline}
+{res}sal_perc_1{right:Quisiéramos saber cuánto dinero cree usted que obtienen algunas ocupaciones. M}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:labels50}
+
+{col 18}range:  [{res}50000{txt},{res}1.000e+08{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}39{col 51}{txt}missing .:  {res}338{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}3500000{col 32}{txt}	$3.000.000	 y 	$4.000.000
+{ralign 23: }{col 26}{res}7000000{col 32}{txt}	$6.000.000	 y 	$8.000.000
+{ralign 23: }{col 26}{res}12500000{col 32}{txt}	$10.000.000	 y 	$15.000.000
+{ralign 23: }{col 26}{res}47500000{col 32}{txt}	$45.000.000	 y 	$50.000.000
+
+{txt}{hline}
+{res}sal_perc_2{right:Quisiéramos saber cuánto dinero cree usted que obtienen algunas ocupaciones. M}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:labels51}
+
+{col 18}range:  [{res}50000{txt},{res}7000000{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}20{col 51}{txt}missing .:  {res}344{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}275000{col 32}{txt}Entre 	$250.000	 y 	$300.000
+{ralign 23: }{col 26}{res}325000{col 32}{txt}Entre 	$300.000	 y 	$350.000
+{ralign 23: }{col 26}{res}375000{col 32}{txt}Entre 	$350.000	 y 	$400.000
+{ralign 23: }{col 26}{res}550000{col 32}{txt}Entre 	$500.000	 y	$600.000
+
+{txt}{hline}
+{res}sal_just_1{right:Ahora, quisiéramos saber cuánto dinero cree usted que deberían obtener estas }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:labels52}
+
+{col 18}range:  [{res}50000{txt},{res}1.000e+08{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}38{col 51}{txt}missing .:  {res}349{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}1250000{col 32}{txt}	$1.000.000	 y 	$1.500.000
+{ralign 23: }{col 26}{res}2750000{col 32}{txt}	$2.500.000	 y 	$3.000.000
+{ralign 23: }{col 26}{res}4500000{col 32}{txt}	$4.000.000	 y 	$5.000.000
+{ralign 23: }{col 26}{res}12500000{col 32}{txt}	$10.000.000	 y 	$15.000.000
+
+{txt}{hline}
+{res}sal_just_2{right:Ahora, quisiéramos saber cuánto dinero cree usted que deberían obtener estas }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:labels53}
+
+{col 18}range:  [{res}50000{txt},{res}1.000e+08{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}27{col 51}{txt}missing .:  {res}352{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}475000{col 32}{txt}Entre 	$450.000	 y	$500.000
+{ralign 23: }{col 26}{res}550000{col 32}{txt}Entre 	$500.000	 y	$600.000
+{ralign 23: }{col 26}{res}675000{col 32}{txt}Entre 	$650.000	y	$700.000
+{ralign 23: }{col 26}{res}1250000{col 32}{txt}	$1.000.000	 y 	$1.500.000
+
+{txt}{hline}
+{res}ess01_1{right:Estatus subjetivo}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels54}
+
+{col 18}range:  [{res}1{txt},{res}11{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}11{col 51}{txt}missing .:  {res}341{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}4{col 32}{txt}(3)
+{ralign 23: }{col 26}{res}5{col 32}{txt}(4)
+{ralign 23: }{col 26}{res}6{col 32}{txt}(5)
+{ralign 23: }{col 26}{res}8{col 32}{txt}(7)
+
+{txt}{hline}
+{res}ess02_1{right:Estatus subjetivo familia origen}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels55}
+
+{col 18}range:  [{res}0{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}11{col 51}{txt}missing .:  {res}343{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}2{col 32}{txt}(2)
+{ralign 23: }{col 26}{res}4{col 32}{txt}(4)
+{ralign 23: }{col 26}{res}5{col 32}{txt}(5)
+{ralign 23: }{col 26}{res}7{col 32}{txt}(7)
+
+{txt}{hline}
+{res}ess03_1{right:Estatus subjetivo hijos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels56}
+
+{col 18}range:  [{res}0{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}11{col 51}{txt}missing .:  {res}344{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}4{col 32}{txt}(4)
+{ralign 23: }{col 26}{res}5{col 32}{txt}(5)
+{ralign 23: }{col 26}{res}7{col 32}{txt}(7)
+{ralign 23: }{col 26}{res}8{col 32}{txt}(8)
+
+{txt}{hline}
+{res}pospol_1{right:Cambiando de tema, tradicionalmente en nuestro país la gente define las posicio}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels57}
+
+{col 18}range:  [{res}1{txt},{res}11{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}11{col 51}{txt}missing .:  {res}400{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}4{col 32}{txt}(3)
+{ralign 23: }{col 26}{res}6{col 32}{txt}(5) Centro
+{ralign 23: }{col 26}{res}6{col 32}{txt}(5) Centro
+{ralign 23: }{col 26}{res}10{col 32}{txt}(9)
+
+{txt}{hline}
+{res}comuna{right:¿En qué comuna vive?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+{ralign 22:label}:  {res:labels58}
+
+{col 18}range:  [{res}1065{txt},{res}1158{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}54{col 51}{txt}missing .:  {res}461{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}1076{col 32}{txt}Independencia
+{ralign 23: }{col 26}{res}1087{col 32}{txt}Maipú
+{ralign 23: }{col 26}{res}1096{col 32}{txt}Recoleta
+{ralign 23: }{col 26}{res}1155{col 32}{txt}Puerto Montt
+
+{txt}{hline}
+{res}ingresos{right:De los siguientes tramos de ingresos mensuales que se presentan, ¿podría Ud. }
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels59}
+
+{col 18}range:  [{res}1{txt},{res}14{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}14{col 51}{txt}missing .:  {res}357{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}10{col 32}{txt}De $358.001 a $448.000 mensuales líquidos
+{ralign 23: }{col 26}{res}11{col 32}{txt}De $448.001 a $1.000.000 mensuales líquidos
+{ralign 23: }{col 26}{res}12{col 32}{txt}De $1.000.001 a $2.000.000 mensuales líquidos
+{ralign 23: }{col 26}{res}13{col 32}{txt}De $2.000.001 a $3.000.000 mensuales líquidos
+
+{txt}{hline}
+{res}estlab{right:¿Cuál de estas situaciones describe mejor su actividad principal durante el ú}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels60}
+
+{col 18}range:  [{res}1{txt},{res}9{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}361{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     1,066{col 33}       1{col 43}{txt}Trabaja de manera remunerada con
+{col 43}jornada completa
+{col 21}{res}       275{col 33}       2{col 43}{txt}Trabaja de manera remunerada a
+{col 43}tiempo parcial o hace trabajos
+{col 43}ocasionales
+{col 21}{res}       125{col 33}       3{col 43}{txt}Estudia y trabaja
+{col 21}{res}       139{col 33}       4{col 43}{txt}Sólo estudia
+{col 21}{res}       153{col 33}       5{col 43}{txt}Jubilado o pensionado
+{col 21}{res}       153{col 33}       6{col 43}{txt}Desempleado, buscando trabajo
+{col 21}{res}       148{col 33}       7{col 43}{txt}Realiza tareas no remuneradas
+{col 43}(quehaceres del hogar, cuidando
+{col 43}niños y otras personas)
+{col 21}{res}        15{col 33}       8{col 43}{txt}Está enfermo o tiene una
+{col 43}discapacidad
+{col 21}{res}        22{col 33}       9{col 43}{txt}No estudia, no trabaja y no
+{col 43}busca trabajo
+{col 21}{res}       361{col 33}       .{col 43}
+
+{txt}{hline}
+{res}edcep{right:¿Cuál es su mayor nivel educacional alcanzado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels61}
+
+{col 18}range:  [{res}1{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}10{col 51}{txt}missing .:  {res}357{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}5{col 32}{txt}Educación media completa
+{ralign 23: }{col 26}{res}6{col 32}{txt}Educación superior no universitaria incompleta
+{ralign 23: }{col 26}{res}8{col 32}{txt}Educación universitaria incompleta
+{ralign 23: }{col 26}{res}9{col 32}{txt}Educación universitaria completa
+
+{txt}{hline}
+{res}ticket{right:ticket}
+{txt}{hline}
+
+{col 19}type:  string ({res}str83{txt})
+
+{col 10}unique values:  {res}2,416{col 51}{txt}missing "":  {res}0{txt}/{res}2,457
+
+{txt}{col 15}examples:  {res}"30f5fbd345a2f735_5196400d5d3857cb_8b672b98300bc03a_4
+{col 26}e8e902d750f38a37c5941cdcd9809f1"
+{col 26}"61998d752239a174_5196400d5d3857cb_11854c4d452a5fc5_c
+{col 26}6cf2f98437ec75de9bbe9e1eb1acab3"
+{col 26}"925a4bc19707664d_5196400d5d3857cb_8b672b98300bc03a_a
+{col 26}67ff48a09559c667d8205ac90ecb260"
+{col 26}"c042bdf3969a134f_5196400d5d3857cb_8b672b98300bc03a_3
+{col 26}24abecdb61d2d29d8651e9501765888"
+
+{txt}{hline}
+{res}_v3{right:FL_21 - Block Randomizer - Display Order merit_perc_pref_julio19v01}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}1,736{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       721{col 33}1
+{col 21}     1,736{col 33}.
+
+{txt}{hline}
+{res}_v4{right:FL_21 - Block Randomizer - Display Order merit_perc_pref_julio19v02}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}1,736{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       721{col 33}1
+{col 21}     1,736{col 33}.
+
+{txt}{hline}
+{res}_v5{right:FL_21 - Block Randomizer - Display Order merit_perc_pref_julio19v03}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1{col 51}{txt}missing .:  {res}1,738{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 21}{res}       719{col 33}1
+{col 21}     1,738{col 33}.
+{txt}
+{com}. 
+. translate log-codebook.smcl log-codebook.pdf
+{txt}(file log-codebook.pdf written in PDF format)
+
+{com}. 
+. 
+. 
+. 
+{txt}end of do-file
+
+{com}. exit, clear

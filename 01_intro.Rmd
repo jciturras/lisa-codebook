@@ -1,0 +1,214 @@
+---
+title: "Crear un libro de códigos"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    code_folding: 'show'
+    self_contained: true
+    css: "style.css"
+  pdf_document:
+    toc: yes
+    toc_depth: 4
+    latex_engine: xelatex
+---
+
+# Introducción  
+
+Cuando manejamos fuentes de datos extensas, disponer de una buena documentación facilita la comprensión y descripción de los datos. Por este motivo, es habitual que dentro de la documentación técnica de los estudios basados en encuestas se incluya lo que se denomina **libro de códigos**. Generalmente, en este tipo de documentos podemos encontrar información que refiere a las variables del estudio, su nivel de medición, valores y etiquetas de valores. En ocasiones, se incluyen estadísticos descriptivos y de tendencia central, según corresponda al tipo de variable en cuestión; y en el mejor de los casos, visualización de información a través de cuadros o figuras. 
+
+En este sentido, el objetivo de este artículo es presentar dos alternativas para generar un libro de códigos a través de dos software de amplio uso en las Ciencias Sociales: R y Stata. 
+  
+
+# Usando librería `codebook` en R  
+ 
+El libro de código generado por `codebook` utiliza como base un documento dinámico generado a través de R Markdown. En este caso, no se describirá en detalle cómo funciona dicha librería (para mayor detalle ver [`rmarkdown`](https://rmarkdown.rstudio.com/docs/index.html)). A continuación se presentarán una serie de pasos a seguir para preparar y generar un libro de códigos utilizando la librería `codebook` en html.
+
+```{r include=FALSE}
+knitr::opts_chunk$set(
+  warning = TRUE,# mostrar advertencias durante la generación del libro de códigos
+  message = TRUE,# mostrar mensajes durante la generación del libro de códigos
+  error = FALSE,# no interrumpir la generación del libro de códigos en caso de errores,
+                # suele ser mejor para la depuración
+  echo = TRUE,  # mostrar el código R
+  eval=FALSE      
+  )
+ggplot2::theme_set(ggplot2::theme_bw())
+pander::panderOptions("table.split.table", Inf)
+```
+
+## 0. Librerías
+
+```{r}
+if (!require("pacman")) install.packages("pacman") # si no tenemos la librería packman instalada, se instala.
+pacman::p_load(tidyverse, haven,codebook, ggplot2) # cargamos nuestras librerías
+```
+
+## 1. Cargar datos
+
+```{r}
+codebook_data <- read_sav(
+  url(
+    "https://github.com/juancarloscastillo/merit-scale/raw/master/input/data/original/Estudio_3_ola1.sav"
+  )
+)
+```
+
+## 2. Declarar valores perdidos
+
+Si tus datos perdidos ya han sido asignados, puedes omitir este siguiente paso. 
+
+```{r missing-values}
+codebook_data <- detect_missing(
+  codebook_data,
+  only_labelled = TRUE,
+  # solamente los labelled values son autodetectados como missing (.sav o .dta)
+  negative_values_are_missing = FALSE,
+  # valores negativos son considerados como datos perdidos
+  ninety_nine_problems = TRUE,
+  # 99/999 son datos perdidos, en el caso de ser más de 5 MAD de la mediana
+)
+```
+
+## 3. Preparar variables
+
+Generalmente en nuestros datos tenemos toda clase de variables, incluyendo las de tipo nominal u ordinal. Por este motivo, existe la posibilidad de declarar si algunas de nuestras variables son de este tipo a través de la función `to_factor`. En este caso vamos a declarar `educat` como una variable categórica (factor).
+
+```{r}
+codebook_data$educat <- to_factor(codebook_data$educat) 
+```
+
+### 3.1 Declarar escalas o baterías (opcional)
+
+Si no se utiliza [`formr`](https://formr.org/), el paquete de libro de códigos tiene que adivinar qué elementos forman una escala. La siguiente línea encuentra agregados de ítems con nombres como este: `scale = scale_1 + scale_2R + scale_3R`. La identificación de estos agregados permite a la función del libro de códigos calcular automáticamente la fiabilidad. Sin embargo, no invertirá los ítems automáticamente.
+
+```{r scales}
+codebook_data <- detect_scales(codebook_data)
+```
+
+## 4. Asginar nombre a conjunto de datos 
+
+¿Su conjunto de datos tiene un nombre que no se refleja en el nombre del archivo? En el caso que nos interese que nuestros datos tengan un nombre, la siguiente línea de código permite asignarlo. 
+
+```{r}
+metadata(codebook_data)$name <- "Meritocracia y Preferencias redistributivas (Ola 1)"
+```
+ 
+## 5. Generar libro de códigos   
+
+```{r codebook}
+codebook(codebook_data)
+```
+
+Debido a la extensión del documento generado, es más adecuado visualizarlos en una sección a parte.
+   
+:::{#note-text .note}
+Libro de códigos aquí: <a href="lisa-codebook.html" target="_blank">Codebook</a>
+::: 
+
+# Usando comando `codebook` en Stata.
+
+El comando [`codebook`](https://www.stata.com/manuals/dcodebook.pdf) permite examinar los nombres de las variables, las etiquetas y los datos para producir un libro de códigos que describa el conjunto de datos. A continuación se presenta un ejemplo de cómo proceder.
+
+## 1. Cargar datos 
+
+```{r}
+# definimos las variables a utilizar
+import spss "https://github.com/juancarloscastillo/merit-scale/raw/master/input/data/original/Estudio_3_ola1.sav"
+```
+
+
+## 2. Generar libro de códigos
+
+En este ejemplo, vamos a seleccionar las variables `sexo`, `educat` y `edad`.
+
+```{r eval=FALSE, include=TRUE}
+codebook sexo educat edad 
+```
+
+```{r eval=FALSE, include=TRUE}
+-----------------------------------------------------------------------------------------
+sexo                                                                    ¿Cuál es su sexo?
+-----------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  labels3
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  241/2,457
+
+            tabulation:  Freq.   Numeric  Label
+                         1,104         1  Hombre
+                         1,112         2  Mujer
+                           241         .  
+
+-----------------------------------------------------------------------------------------
+educat                                    ¿Cuál es su mayor nivel educacional alcanzado?
+-----------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  labels4
+
+                 range:  [1,4]                        units:  1
+         unique values:  4                        missing .:  241/2,457
+
+            tabulation:  Freq.   Numeric  Label
+                            65         1  Básica o menos (Sin estudios -
+                                          básica incompleta - básica
+                                          completa)
+                           958         2  Media (Media incompleta - media
+                                          completa)
+                           723         3  No universitaria (Técnica
+                                          incompleta - técnica completa -
+                                          universitaria incompleta)
+                           470         4  Universitaria o más (
+                                          Universitaria completa -
+                                          postgrado)
+                           241         .  
+
+-----------------------------------------------------------------------------------------
+edad                                                                   ¿Cuál es su edad?
+-----------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  labels5
+
+                 range:  [1,5]                        units:  1
+         unique values:  5                        missing .:  241/2,457
+
+            tabulation:  Freq.   Numeric  Label
+                           411         1  18 - 24
+                           418         2  25 - 34
+                           423         3  35 - 44
+                           398         4  45 - 54
+                           566         5  55 o más
+                           241         .  
+```
+Para obtener un libro de códigos de todas las variables en la base de datos, simplemente debemos usar:
+
+```{r eval=FALSE, include=TRUE}
+codebook
+```
+
+## 3. Exportar resultados
+
+Si deseamos guardar nuestros resultados y luego crear un archivo pdf con el libro de códigos, debemos usar el siguiente código:
+
+```{r eval=FALSE, include=TRUE}
+log using log-codebook, replace
+codebook 
+translate log-codebook.smcl log-codebook.pdf
+```
+
+
+Obtenemos un archivo en pdf como el que se puede observar a continuación: 
+
+<embed src="input/log-codebook.pdf" type="application/pdf" width="100%" height="600px" />
+
+## Apéndice
+
+1. <a href="lisa-codebook.Rmd" target="_blank">Código en R Markdown</a>
+2. <a href="input/codebook.do" target="_blank">Código en do-file</a>
+
+
