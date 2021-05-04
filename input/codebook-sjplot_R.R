@@ -3,10 +3,8 @@ pacman::p_load(haven,   # para cargar bases de datos en .sav o .dta
                pagedown,# exportar a pdf (a)
                webshot  # exportar a pdf (b)
                ) 
-options("encoding")
-# options("encoding"="UTF-8")
 
-misdatos <- read_sav(file = "misdatos.sav")
+misdatos <- read_sav(file = "misdatos.sav")    # cargar base de datos
 
 sjPlot::view_df(misdatos,                      # Datos
                 show.type = F,                 # mostrar tipo de variable
@@ -15,7 +13,7 @@ sjPlot::view_df(misdatos,                      # Datos
                 file = "codebook-sjplot.html", # guardar codebook en html               
                 encoding = "UTF-8",            # encoding caracteres especiales
                 max.len =40,             
-)
+                )
 browseURL("codebook-sjplot.html") # ver codebook
 
 # Alternativas para exportar a pdf ----------------------------------------
