@@ -1,0 +1,121 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Julio\Dropbox\papers\lisa-codebook\input\codebook_stata.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 4 May 2021, 14:32:02
+{txt}
+{com}. codebook 
+
+{txt}{hline}
+{res}Duration__in_seconds_{right:Duration (in seconds)}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+
+{col 18}range:  [{res}4{txt},{res}318721{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}1,142{col 51}{txt}missing .:  {res}0{txt}/{res}2,457
+
+{txt}{col 19}mean:{res}{col 26} 1773.72
+{txt}{col 15}std. dev:{res}{col 26} 11921.3
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}     169{col 37}     421{col 47}     581{col 57}     828{col 67}    1265
+
+{txt}{hline}
+{res}educat{right:¿Cuál es su mayor nivel educacional alcanzado?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels0}
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}        65{col 33}       1{col 43}{txt}Básica o menos (Sin estudios -
+{col 43}básica incompleta - básica
+{col 43}completa)
+{col 21}{res}       958{col 33}       2{col 43}{txt}Media (Media incompleta - media
+{col 43}completa)
+{col 21}{res}       723{col 33}       3{col 43}{txt}No universitaria (Técnica
+{col 43}incompleta - técnica completa -
+{col 43}universitaria incompleta)
+{col 21}{res}       470{col 33}       4{col 43}{txt}Universitaria o más (
+{col 43}Universitaria completa -
+{col 43}postgrado)
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{res}sexo{right:¿Cuál es su sexo?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels1}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}     1,104{col 33}       1{col 43}{txt}Hombre
+{col 21}{res}     1,112{col 33}       2{col 43}{txt}Mujer
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{res}edad{right:¿Cuál es su edad?}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels2}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}241{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       411{col 33}       1{col 43}{txt}18 - 24
+{col 21}{res}       418{col 33}       2{col 43}{txt}25 - 34
+{col 21}{res}       423{col 33}       3{col 43}{txt}35 - 44
+{col 21}{res}       398{col 33}       4{col 43}{txt}45 - 54
+{col 21}{res}       566{col 33}       5{col 43}{txt}55 o más
+{col 21}{res}       241{col 33}       .{col 43}
+
+{txt}{hline}
+{p 0 39}{res}get_ah_1{space 31}Para surgir en la vida, ¿cuan importante cree ud. que es...? - Tener padres con{p_end}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:labels3}
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}284{txt}/{res}2,457
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 21}{res}       272{col 33}       1{col 43}{txt}No Es importante
+{col 21}{res}       563{col 33}       2{col 43}{txt}No muy importante
+{col 21}{res}       552{col 33}       3{col 43}{txt}Bastante importante
+{col 21}{res}       509{col 33}       4{col 43}{txt}Muy importante
+{col 21}{res}       277{col 33}       5{col 43}{txt}Esencial
+{col 21}{res}       284{col 33}       .{col 43}
+
+{txt}{hline}
+{p 0 39}{res}sal_perc_1{space 29}Quisiéramos saber cuánto dinero cree usted que obtienen algunas ocupaciones. M{p_end}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:labels4}
+
+{col 18}range:  [{res}50000{txt},{res}1.000e+08{txt}]{col 55}units:  {res}1000
+{col 10}{txt}unique values:  {res}39{col 51}{txt}missing .:  {res}338{txt}/{res}2,457
+
+{txt}{ralign 23: examples:}{col 26}{res}3500000{col 32}{txt}	$3.000.000	 y 	$4.000.000
+{ralign 23: }{col 26}{res}7000000{col 32}{txt}	$6.000.000	 y 	$8.000.000
+{ralign 23: }{col 26}{res}12500000{col 32}{txt}	$10.000.000	 y 	$15.000.000
+{ralign 23: }{col 26}{res}47500000{col 32}{txt}	$45.000.000	 y 	$50.000.000
+
+{com}. translate codebook_stata.smcl codebook_stata.pdf
+{txt}(file codebook_stata.pdf written in PDF format)
+
+{com}. 
+{txt}end of do-file
+
+{com}. exit, clear
