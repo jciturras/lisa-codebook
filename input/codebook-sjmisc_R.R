@@ -1,11 +1,12 @@
 pacman::p_load(haven,sjPlot,pagedown,webshot)
 
-misdatos <- read_sav(file = "misdatos.sav")
-options("encoding"="UTF-8")
-sink("codebook-sjmisc.txt")
-sjmisc::frq(misdatos,min.frq = 2)
-sink() 
+misdatos <- read_sav(file = "misdatos.sav") # Datos
+options("encoding"="UTF-8")                 # encodign caracteres especiales
+sink("codebook-sjmisc.txt")                 # crear archivo en .txt
+sjmisc::frq(misdatos,min.frq = 2)           # crear codebook
+sink()                                      # terminar, guardar.
 
+# Alternativas para exportar a pdf ----------------------------------------
 pagedown::chrome_print(
   input = "codebook-sjmisc.txt",
   output = "codebook-sjmisc_pdown.pdf",
