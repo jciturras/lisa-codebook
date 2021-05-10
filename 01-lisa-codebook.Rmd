@@ -34,12 +34,12 @@ Cada uno de los software mencionados tiene distintas funciones que nos permiten 
 -   En R no existe una única forma de obtener un libro de códigos. Sin embargo, la función `view_df()` de la librería `sjPlot` nos ofrece una salida de buena calidad. Otra alternativa es emplear la función `frq()` de la librería sjmisc, la cual entrega los nombres de variable, etiqueta y etiquetas de valores junto a las frecuencias, media y desviación estándar.
 -   Es importante mencionar que para las tres opciones, sus variables deben estar correctamente etiquetadas.
 
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
-| **Software** | **Función**                                                                                                                                      | **Ejemplo**       |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
-| SPSS         | [`CODEBOOK`](https://libguides.library.kent.edu/spss/codebooks)                                                                                  | Codebook en SPSS  |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
-| Stata        | [`codebook`](https://www.stata.com/manuals/dcodebook.pdf)                                                                                        | Codebook en Stata |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
-| R            | [`view_df()`](https://strengejacke.github.io/sjPlot/reference/view_df.html), [`frq()`](https://strengejacke.github.io/sjmisc/reference/frq.html) | Codebook en R     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| **Software** | **Función**                                                                                                                                      | **Ejemplo**                                  |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| SPSS         | [`CODEBOOK`](https://libguides.library.kent.edu/spss/codebooks)                                                                                  | [Codebook en SPSS](input/codebook_spss.sps)  |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| Stata        | [`codebook`](https://www.stata.com/manuals/dcodebook.pdf)                                                                                        | [Codebook en Stata](input/codebook_stata.do) |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| R            | [`view_df()`](https://strengejacke.github.io/sjPlot/reference/view_df.html), [`frq()`](https://strengejacke.github.io/sjmisc/reference/frq.html) | [Codebook en R](input/codebook-sjplot_R.R)   |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
