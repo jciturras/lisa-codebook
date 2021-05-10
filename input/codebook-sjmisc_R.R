@@ -11,20 +11,3 @@ sink("codebook-sjmisc.txt")                 # crear archivo en .txt
 sjmisc::frq(misdatos,min.frq = 2)           # crear codebook
 sink()                                      # terminar, guardar.
 
-# Alternativas para exportar a pdf ----------------------------------------
-pagedown::chrome_print(
-  input = "codebook-sjmisc.txt",
-  output = "codebook-sjmisc_pdown.pdf",
-  encoding = "UTF-8"
-)
-
-# Asume el txt como markdown, lo pasa por rmarkdown::render()
-# Problema con encoding
-
-webshot::webshot(
-  url = "codebook-sjmisc.txt",
-  file = "codebook-sjmisc_wshot.pdf")
-
-# Entrega pdf en 1 pagina, problema para imprimir. Siempre en 1 página.
-# Problema con encoding
-

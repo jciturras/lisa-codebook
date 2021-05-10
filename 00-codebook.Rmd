@@ -42,7 +42,7 @@ pander::panderOptions("table.split.table", Inf)
 
 ```{r}
 if (!require("pacman")) install.packages("pacman") # si no tenemos la librería packman instalada, se instala.
-pacman::p_load(tidyverse, haven,codebook, ggplot2) # cargamos nuestras librerías
+pacman::p_load(tidyverse, haven,codebook, ggplot2,sjPlot) # cargamos nuestras librerías
 ```
 
 ## 1. Cargar datos
